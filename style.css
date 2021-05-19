@@ -150,6 +150,38 @@ article em {
     line-height: 23px;  
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px dashed black;
+    padding: 40px;
+    font-size: 15pt;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul h2 a:hover {
+    text-decoration: underline black;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+ul li:hover {
+    text-shadow: 2px 2px 8px black;
+    font-size: 19pt;
+    color: wheat;
+}
+
+
+
 /* ----------------------------- */
 
 /* - Rodape - */
@@ -291,6 +323,10 @@ article em {
         width: 100%;
         text-align: center;
     }
+
+    ul h2 {
+        font-size: 20pt;
+    }
 }
 
 @media (max-width:570px) {
@@ -315,6 +351,15 @@ article em {
     .b_container {
         margin-bottom: 20px;
     }
+
+    .coluna2 {
+        width: 100%;
+    }
+
+    ul h2 {
+        font-size: 17pt;
+    }
+    
 }
 
 @media (max-width:350px) {
@@ -329,7 +374,11 @@ article em {
         font-size: 16px;
     }
     
+    ul h2 {
+        font-size: 15pt;
+    }
+
+    ul li {
+        font-size: 13pt;
+    }
 }
-
-
-

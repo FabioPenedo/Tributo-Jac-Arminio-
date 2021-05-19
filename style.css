@@ -198,7 +198,7 @@ ul li:hover {
 
 .f_banner {
     color: var(--c-font);
-    font-family: cursive;
+    font-family: 'Georgia';
     letter-spacing: 1px;
     font-size: 18px;
 }
